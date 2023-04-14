@@ -78,10 +78,14 @@ $services = array();
 $services[] = array("port" => "21",       "service" => "FTP",                     "ip" => "") ;
 $services[] = array("port" => "22",       "service" => "Open SSH",				"ip" => "") ;
 $services[] = array("port" => "80",       "service" => "Web server",                  "ip" => "") ;
+$services[] = array("port" => "137",       "service" => "Samba",                  "ip" => "") ;
+$services[] = array("port" => "139",       "service" => "Samba",                  "ip" => "") ;
+$services[] = array("port" => "445",       "service" => "Samba",                  "ip" => "") ;
 $services[] = array("port" => "3306",     "service" => "MYSQL",                   "ip" => "") ;
 $services[] = array("port" => "3389",     "service" => "RDP",             	"ip" => "") ;
 $services[] = array("port" => "4120",     "service" => "Webmin",             	"ip" => "") ;
 $services[] = array("port" => "4121",     "service" => "Portainer",             	"ip" => "") ;
+$services[] = array("port" => "4122",     "service" => "Data FileBrowser",             	"ip" => "") ;
 $services[] = array("port" => "8080",     "service" => "Tomcat",             	"ip" => "") ;
 
 
